@@ -34,7 +34,7 @@ jobs:
         continue-on-error: true  # 即使 lint 失败也继续（可删掉这行让它严格）好处：代码风格不合规就直接失败，保证主干代码干净
       # 添加测试用例
       - name: Run tests          
-        run: npm run test:run
+        run: npm run test
 
       # 5. 构建项目（这里用你项目的实际命令！）
       - name: Build project
