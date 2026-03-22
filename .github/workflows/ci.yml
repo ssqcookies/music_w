@@ -5,8 +5,8 @@ name: Frontend Build CI
 on:
   push:
     branches: [ "main", "dev" ]  # 根据你的主分支名调整
-  pull_request:
-    branches: [ "main", "dev" ]
+  pull_request: # ← 所有 PR 都会触发，不管目标分支
+    branches: [ "main", "dev" ] 
 
 jobs:
   build:
@@ -31,7 +31,10 @@ jobs:
       # 4. 运行 ESLint（可选，如果 lint 脚本存在）
       - name: Run ESLint
         run: npm run lint
-        continue-on-error: true  # 即使 lint 失败也继续（可删掉这行让它严格）
+        continue-on-error: true  # 即使 lint 失败也继续（可删掉这行让它严格）好处：代码风格不合规就直接失败，保证主干代码干净
+      # 添加测试用例
+      - name: Run tests          
+        run: npm run test:run
 
       # 5. 构建项目（这里用你项目的实际命令！）
       - name: Build project
