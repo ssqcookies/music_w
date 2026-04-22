@@ -10,7 +10,10 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     globals: true, // 👈 关键！启用全局 API（vi, expect 等）
-    setupFiles: './src/setupTests.js', // 可选
+    setupFiles: './src/setupTests.ts', // 可选
+    // 确保 include 能匹配到你的测试文件路径
+    include: ['src/**/*.{test,spec}.{js,ts,jsx,tsx}'],
+    exclude: ['node_modules', 'dist']
   },
   resolve: {
     alias: {
