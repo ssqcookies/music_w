@@ -1,0 +1,17 @@
+# http://editorconfig.org
+
+# .editorconfig 会覆盖编辑器的个人设置，保证团队成员用不同编辑器写出的代码格式完全一致。
+
+root = true               # 表示这是项目根目录的配置文件，编辑器不会再往上找其他配置
+
+[*]                       # 对所有文件生效
+charset = utf-8           # 文件编码统一为 UTF-8
+indent_style = space      # 缩进用空格（而不是 tab）
+indent_size = 2           # 每次缩进 2 个空格
+end_of_line = lf          # 换行符用 LF（Unix 风格，避免 Windows 的 CRLF 带来的冲突）
+trim_trailing_whitespace = true  # 保存文件时自动删除行尾多余空格
+insert_final_newline = true      # 保存文件时自动在末尾加一个空行（符合规范）
+
+[*.md]                    # 仅对 .md 格式文件生效
+max_line_length = off     # 不限制 Markdown 文本的行宽
+trim_trailing_whitespace = false  # 不删除 Markdown 行尾空格（因为 Markdown 靠行尾两个空格实现换行）
