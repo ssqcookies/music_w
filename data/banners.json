@@ -1,0 +1,31 @@
+
+{
+  "code": 200,
+  "data": {
+    "banners":[
+      {
+        "targetId": 10995116661887,
+        "bannerPic": "/images/banners/banner1.jpg",
+        "titleColor": "red",
+        "typeTitle": "活动",
+        "url": "https://music.163.com/#/song?id=3373402467"
+      },
+      {
+        "targetId": 10995116661888,
+        "bannerPic": "/images/banners/banner2.jpg",
+        "titleColor": "blue",
+        "typeTitle": "新歌",
+        "url": "https://music.163.com/#/song?id=3370152972"
+      },
+
+      {
+        "targetId": 10995116661888,
+        "bannerPic": "/images/banners/banner2.jpg",
+        "titleColor": "blue",
+        "typeTitle": "新歌",
+        "url": "https://music.163.com/#/album?id=371891821"
+      }
+      
+    ]
+  }
+}
