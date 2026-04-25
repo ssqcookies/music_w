@@ -6,19 +6,22 @@ interface IProps {
   children?:ReactNode
 }
 
-const Recommond = ({children}:IProps)=>{
+const Recommoend = ({children}:IProps)=>{
   console.log("11111")
   /**发起action（获取数据） */
-    const dispatch = useAppDispatch()
-    useEffect(()=>{
- 
+    // const dispatch = useAppDispatch()
+    // useEffect(()=>{
+    //   dispatch(fetchBannerDataAction())
+    // },[])
 
-      dispatch(fetchBannerDataAction())
-    },[])
-
-
+    useEffect(() => {
+      fetch('/api/banners') // 注意：这里用相对路径，Vite 会代理
+        .then(res => res.json())
+        .then(data => console.log('✅ 数据:', data))
+        .catch(err => console.error('❌ 错误:', err));
+    }, []);
 
   return <div>1111Recommond {children}</div>
 }
 
-export default memo(Recommond)
+export default memo(Recommoend)

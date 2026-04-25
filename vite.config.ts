@@ -17,7 +17,12 @@ export default defineConfig({
         target: 'https://music-w-nine.vercel.app', 
         changeOrigin: true, // 改变请求头中的 origin，通常需要开启
         secure: false, // 如果代理目标是 HTTPS，但证书无效，设为 false (本地开发常用)
-        // rewrite: (path) => path.replace(/^\/api/, ''), // 可选：重写路径，一般不需要
+        configure: (proxy, options) => {
+          proxy.on('proxyReq', (proxyReq, req, res) => {
+            proxyReq.setHeader('Host', 'music-w-nine.vercel.app');
+            proxyReq.setHeader('Origin', 'http://localhost:5173'); // 可选，但推荐
+          });
+        },
       },
     }
   },

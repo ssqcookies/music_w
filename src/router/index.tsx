@@ -1,7 +1,6 @@
 import type {RouteObject} from 'react-router-dom'
 import {Navigate} from 'react-router-dom'
 import {lazy} from 'react'
-const Recommend = lazy(()=>import('@/views/discover/children-views/recommend'))
 const Songs = lazy(()=>import('@/views/discover/children-views/songs'))
 const Djradio = lazy(()=>import('@/views/discover/children-views/djradio'))
 const Album = lazy(()=>import('@/views/discover/children-views/album'))
