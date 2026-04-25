@@ -1,6 +1,7 @@
 import type {RouteObject} from 'react-router-dom'
 import {Navigate} from 'react-router-dom'
 import {lazy} from 'react'
+import Recommend from '@/views/discover/children-views/recommend'
 const Songs = lazy(()=>import('@/views/discover/children-views/songs'))
 const Djradio = lazy(()=>import('@/views/discover/children-views/djradio'))
 const Album = lazy(()=>import('@/views/discover/children-views/album'))
@@ -23,8 +24,12 @@ const routes:RouteObject[] = [
     element:<Discover/>,
     children:[
       {
-         path:'/discover/recommend',
-         element:<Navigate to="/discover/recommend"/>,
+        index: true,   // 当 URL 为 /discover 时匹配
+        element: <Navigate to="/discover/recommend" replace />,
+      },
+      {
+        path: '/discover/recommend',   // 也可以用相对路径 'recommend'
+        element: <Recommend />,
       },
         {
          path:'/discover/songs',

@@ -2,7 +2,7 @@
 import axios, { AxiosHeaders } from "axios"
 import type { AxiosInstance, InternalAxiosRequestConfig, AxiosResponse } from "axios"
 import type { SRequestConfig, SInterceptor } from './types'
-
+import { getRealUrl } from '../config/urlMapping'
 import { getCommonHeaders } from '../config/index'
 
 class SRequest {
@@ -30,7 +30,15 @@ class SRequest {
     // ---------------------------
     this.instance.interceptors.request.use((config: InternalAxiosRequestConfig) => {
       console.log("【全局请求拦截】添加公共 header、token 等")
+      const originalUrl = config.url || ''
+      console.log("originalUrl",originalUrl)
+      const realUrl = getRealUrl(originalUrl)   // 从映射表获取真实路径
+      console.log("realUrl",realUrl)
 
+      if (realUrl !== originalUrl) {
+        config.url = realUrl
+        console.log(`[URL 映射] ${originalUrl} → ${realUrl}`)
+      }
       // 请求拦截器里设置
       if (!config.headers) {
         config.headers = new AxiosHeaders()

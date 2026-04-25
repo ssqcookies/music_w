@@ -3,7 +3,7 @@ import { getTopBanners } from '../service'
 
 export const fetchBannerDataAction = createAsyncThunk('banners',async ()=>{
   const res = await getTopBanners()
-  console.log("22222")
+  console.log("22222",res)
   return res.data
 })
 
