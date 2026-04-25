@@ -1,6 +1,7 @@
 import { useAppDispatch } from "@/store";
 import { memo, ReactNode, useEffect } from "react";
 import { fetchBannerDataAction } from "./store";
+import TopBanner from "./components/top-banner";
 
 interface IProps {
   children?:ReactNode
@@ -13,9 +14,9 @@ const Recommoend = ({children}:IProps)=>{
       dispatch(fetchBannerDataAction())
     },[])
 
-
-
-  return <div>1111Recommond {children}</div>
+  return <div>
+    <TopBanner></TopBanner>
+  </div>
 }
 
 export default memo(Recommoend)

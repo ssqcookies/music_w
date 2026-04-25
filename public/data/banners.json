@@ -1,31 +1,29 @@
 
 {
   "code": 200,
-  "data": {
-    "banners":[
-      {
-        "targetId": 10995116661887,
-        "bannerPic": "/images/banners/banner1.jpg",
-        "titleColor": "red",
-        "typeTitle": "活动",
-        "url": "https://music.163.com/#/song?id=3373402467"
-      },
-      {
-        "targetId": 10995116661888,
-        "bannerPic": "/images/banners/banner2.jpg",
-        "titleColor": "blue",
-        "typeTitle": "新歌",
-        "url": "https://music.163.com/#/song?id=3370152972"
-      },
+  "data": [
+    {
+      "targetId": 10995116661887,
+      "bannerPic": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/79731753361/73b1/91e2/adfa/811cbdc5d7e43a8da26790611f600210.png",
+      "titleColor": "red",
+      "typeTitle": "活动",
+      "imageUrl": "https://music.163.com/#/song?id=3373402467"
+    },
+    {
+      "targetId": 10995116661888,
+      "bannerPic": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/79777594206/4f3b/0ceb/4045/528e395ef395a1136f2b66f23c3a4b37.jpg",
+      "titleColor": "blue",
+      "typeTitle": "新歌",
+      "imageUrl": "https://music.163.com/#/song?id=3370152972"
+    },
 
-      {
-        "targetId": 10995116661888,
-        "bannerPic": "/images/banners/banner2.jpg",
-        "titleColor": "blue",
-        "typeTitle": "新歌",
-        "url": "https://music.163.com/#/album?id=371891821"
-      }
-      
-    ]
-  }
+    {
+      "targetId": 10995116661888,
+      "bannerPic": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/79776502391/82b3/e767/399c/00f35b13b3da59ff1ee325c364464857.jpg",
+      "titleColor": "blue",
+      "typeTitle": "新歌",
+      "imageUrl": "https://music.163.com/#/album?id=371891821"
+    }
+    
+  ]
 }
