@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 // process.cwd() 指向 Vercel 构建环境中的项目根目录
-const dataPath = path.join(process.cwd(), 'DataJSON', 'banners.json');
+const dataPath = path.join(process.cwd(), 'data', 'banners.json');
 
 export default function handler(req, res) {
   if (req.method !== 'GET') {

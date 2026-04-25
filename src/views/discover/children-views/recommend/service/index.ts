@@ -1,5 +1,5 @@
 import sRequest from "@/service"
 
 export function getTopBanners(){
-  return sRequest.get( '/banner')
+  return sRequest.get( 'api/banner')
 }

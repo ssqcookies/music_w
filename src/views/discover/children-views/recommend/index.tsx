@@ -7,15 +7,18 @@ interface IProps {
 }
 
 const Recommond = ({children}:IProps)=>{
+  console.log("11111")
   /**发起action（获取数据） */
     const dispatch = useAppDispatch()
     useEffect(()=>{
+ 
+
       dispatch(fetchBannerDataAction())
     },[])
 
 
 
-  return <div>Recommond {children}</div>
+  return <div>1111Recommond {children}</div>
 }
 
 export default memo(Recommond)
