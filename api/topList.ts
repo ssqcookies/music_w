@@ -1,5 +1,5 @@
 import { createGetHandler } from './_utils';
 
 export default createGetHandler({
-  dataPath: 'public/data/banners.json',
+  dataPath: 'public/data/topList.json',
 });

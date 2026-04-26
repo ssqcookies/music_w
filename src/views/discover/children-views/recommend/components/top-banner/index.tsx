@@ -71,6 +71,7 @@ const TopBanner: FC<IProps> = () => {
                     className={classNames('item', {
                       active: currentIndex === index
                     })}
+                    onClick={() => bannerRef.current?.goTo(index,true)}
                   ></span>
                 </li>
               )

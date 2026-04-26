@@ -1,0 +1,322 @@
+{
+  "code": 200,
+  "subCode": null,
+  "message": null,
+  "data": [
+    {
+      "id": "553CCB15018D231F9BE9F622E24D8D6B",
+      "name": "张三的歌",
+      "duration": 288227,
+      "artists": [
+        {
+          "id": "08B9A4DAE07B5431150571EF556CF890",
+          "name": "蔡琴"
+        }
+      ],
+      "fullArtists": [
+        {
+          "id": "08B9A4DAE07B5431150571EF556CF890",
+          "name": "蔡琴"
+        }
+      ],
+      "album": {
+        "id": "9F6912E2AC81D28A826A4CBDB6AA31BD",
+        "name": "遇见"
+      },
+      "playFlag": true,
+      "downloadFlag": true,
+      "payPlayFlag": false,
+      "payDownloadFlag": false,
+      "vipFlag": true,
+      "liked": true,
+      "coverImgUrl": "http://p1.music.126.net/K0oKgStgUfWJbNg284mECQ==/109951169302936812.jpg",
+      "vipPlayFlag": true,
+      "songTag": [
+        "流行",
+        "民谣",
+        "华语流行"
+      ]
+    },
+    {
+      "id": "1F8035FE862EBD4E131417A19B46528E",
+      "name": "漠河舞厅·2022",
+      "duration": 304195,
+      "artists": [
+        {
+          "id": "FD38D027094D86F6CD71895C27BF48EC",
+          "name": "柳爽"
+        }
+      ],
+      "fullArtists": [
+        {
+          "id": "FD38D027094D86F6CD71895C27BF48EC",
+          "name": "柳爽"
+        }
+      ],
+      "album": {
+        "id": "44916B71662C255059D6B68BE73DFDB4",
+        "name": "漠河舞厅·2022"
+      },
+      "playFlag": true,
+      "downloadFlag": true,
+      "payPlayFlag": false,
+      "payDownloadFlag": false,
+      "vipFlag": false,
+      "liked": true,
+      "coverImgUrl": "http://p1.music.126.net/m8BMzRWR53lMu2uaMYV2mA==/109951166609630672.jpg",
+      "vipPlayFlag": false,
+      "songTag": [
+        "流行",
+        "华语流行"
+      ]
+    },
+    {
+      "id": "650D057AADF3AAB6FD1F63798689066A",
+      "name": "至少还有你",
+      "duration": 274504,
+      "artists": [
+        {
+          "id": "A1A6E96049AA73E2E85181E8C1718A30",
+          "name": "林忆莲",
+          "coverImgUrl": null
+        }
+      ],
+      "fullArtists": [
+        {
+          "id": "A1A6E96049AA73E2E85181E8C1718A30",
+          "name": "林忆莲",
+          "coverImgUrl": null
+        }
+      ],
+      "album": {
+        "id": "455490B6F413147EEB0042CFD83F0638",
+        "name": "林夕字传2"
+      },
+      "playFlag": true,
+      "downloadFlag": true,
+      "payPlayFlag": false,
+      "payDownloadFlag": false,
+      "vipFlag": false,
+      "liked": false,
+      "coverImgUrl": "http://p1.music.126.net/thXkupdKJtuSswDv4u-sow==/68169720928612.jpg",
+      "vipPlayFlag": false,
+      "songTag": [
+        "流行"
+      ]
+    },
+    {
+      "id": "4D5C2F416B95E703484D6C8F66D6BD82",
+      "name": "Extasy (狂欢)",
+      "duration": 141369,
+      "artists": [
+        {
+          "id": "06F405DA89F5B8B92ABB652F547BD947",
+          "name": "KpNAk"
+        },
+        {
+          "id": "48343918E31CD514CC5DF634C348BAD6",
+          "name": "BeYMu"
+        }
+      ],
+      "album": {
+        "id": "C64F764DB361B13FDAA7500650B5B579",
+        "name": "Extasy (狂欢)"
+      },
+      "playFlag": true,
+      "downloadFlag": true,
+      "payPlayFlag": false,
+      "payDownloadFlag": false,
+      "vipFlag": false,
+      "liked": false,
+      "coverImgUrl": "http://p1.music.126.net/cUqQurkmeZ6n5jaoh7t7KA==/109951169121966136.jpg",
+      "vipPlayFlag": false,
+      "songTag": [
+        "电子"
+      ]
+    },
+    {
+      "id": "EA0F367B5EEF238F97287FBA5011E0A3",
+      "name": "风驶过之后",
+      "duration": 164039,
+      "artists": [
+        {
+          "id": "8C2B665260890DA77C04FD70AAB62CDB",
+          "name": "YOUNG"
+        },
+        {
+          "id": "2A8F4234209EDFF7BABDC3DD2CFBABC2",
+          "name": "果妹"
+        }
+      ],
+      "album": {
+        "id": "D495CF6A19D85265DAF0EFA42DA04474",
+        "name": "风驶过之后"
+      },
+      "playFlag": true,
+      "downloadFlag": true,
+      "payPlayFlag": false,
+      "payDownloadFlag": false,
+      "vipFlag": false,
+      "liked": false,
+      "coverImgUrl": "http://p1.music.126.net/ZX4IU3ZFSnkcfxBoJfkjkQ==/109951168636865566.jpg",
+      "vipPlayFlag": false,
+      "songTag": [
+        "嘻哈说唱",
+        "流行说唱",
+        "地域说唱"
+      ]
+    },
+    {
+      "id": "EBFC316AFF3A2BC5611B3038B986560E",
+      "name": "一荤一素",
+      "duration": 281346,
+      "artists": [
+          {
+              "id": "C7BAD226165098602FEF6904CFC25C03",
+              "name": "毛不易"
+          }
+      ],
+      "album": {
+          "id": "EC0A96AA28741DDF8CBE517CDD978263",
+          "name": "平凡的一天"
+      },
+      "playFlag": true,
+      "downloadFlag": false,
+      "payPlayFlag": false,
+      "payDownloadFlag": true,
+      "vipFlag": false,
+      "liked": false,
+      "coverImgUrl": "http://p1.music.126.net/vmCcDvD1H04e9gm97xsCqg==/109951163350929740.jpg",
+      "vipPlayFlag": false,
+      "songMaxBr": 999000,
+      "songTag": null,
+      "visible": true
+  },
+  {
+      "id": "A8BFF81099439A9444FD0B0D91FE0973",
+      "name": "这世界那么多人",
+      "duration": 285884,
+      "artists": [
+          {
+              "id": "09429A8601AA370E1679D10F723A3B53",
+              "name": "莫文蔚"
+          }
+      ],
+      "album": {
+          "id": "B1B1C85BCA91ADD2AD03211B2DB53F05",
+          "name": "这世界那么多人"
+      },
+      "playFlag": true,
+      "downloadFlag": false,
+      "payPlayFlag": false,
+      "payDownloadFlag": true,
+      "vipFlag": false,
+      "liked": false,
+      "coverImgUrl": "http://p1.music.126.net/LOTxqRjFm03VJEOHJbUqMw==/109951165944804127.jpg",
+      "vipPlayFlag": false,
+      "songMaxBr": 320000,
+      "songTag": null,
+      "visible": true
+  }, {
+    "id": "5533CCB15018D231F9BE9F622E24D8D6B",
+    "name": "张三的歌",
+    "duration": 288227,
+    "artists": [
+      {
+        "id": "08B9A4DAE07B5431150571EF556CF890",
+        "name": "蔡琴"
+      }
+    ],
+    "fullArtists": [
+      {
+        "id": "08B9A4DAE07B5431150571EF556CF890",
+        "name": "蔡琴"
+      }
+    ],
+    "album": {
+      "id": "9F6912E2AC81D28A826A4CBDB6AA31BD",
+      "name": "遇见"
+    },
+    "playFlag": true,
+    "downloadFlag": true,
+    "payPlayFlag": false,
+    "payDownloadFlag": false,
+    "vipFlag": true,
+    "liked": true,
+    "coverImgUrl": "http://p1.music.126.net/K0oKgStgUfWJbNg284mECQ==/109951169302936812.jpg",
+    "vipPlayFlag": true,
+    "songTag": [
+      "流行",
+      "民谣",
+      "华语流行"
+    ]
+  },
+  {
+    "id": "1F8035FE862EBD4E131417A19B246528E",
+    "name": "漠河舞厅·2022",
+    "duration": 304195,
+    "artists": [
+      {
+        "id": "FD38D027094D86F6CD71895C27BF48EC",
+        "name": "柳爽"
+      }
+    ],
+    "fullArtists": [
+      {
+        "id": "FD38D027094D86F6CD71895C27BF48EC",
+        "name": "柳爽"
+      }
+    ],
+    "album": {
+      "id": "44916B71662C255059D6B68BE73DFDB4",
+      "name": "漠河舞厅·2022"
+    },
+    "playFlag": true,
+    "downloadFlag": true,
+    "payPlayFlag": false,
+    "payDownloadFlag": false,
+    "vipFlag": false,
+    "liked": true,
+    "coverImgUrl": "http://p1.music.126.net/m8BMzRWR53lMu2uaMYV2mA==/109951166609630672.jpg",
+    "vipPlayFlag": false,
+    "songTag": [
+      "流行",
+      "华语流行"
+    ]
+  },
+  {
+    "id": "650D057AADF3A2AB6FD1F63798689066A",
+    "name": "至少还有你",
+    "duration": 274504,
+    "artists": [
+      {
+        "id": "A1A6E96049AA73E2E85181E8C1718A30",
+        "name": "林忆莲",
+        "coverImgUrl": null
+      }
+    ],
+    "fullArtists": [
+      {
+        "id": "A1A6E96049AA73E2E85181E8C1718A30",
+        "name": "林忆莲",
+        "coverImgUrl": null
+      }
+    ],
+    "album": {
+      "id": "455490B6F413147EEB0042CFD83F0638",
+      "name": "林夕字传2"
+    },
+    "playFlag": true,
+    "downloadFlag": true,
+    "payPlayFlag": false,
+    "payDownloadFlag": false,
+    "vipFlag": false,
+    "liked": false,
+    "coverImgUrl": "http://p1.music.126.net/thXkupdKJtuSswDv4u-sow==/68169720928612.jpg",
+    "vipPlayFlag": false,
+    "songTag": [
+      "流行"
+    ]
+  }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "code": 200,
+  "subCode": null,
+  "message": null,
+  "data": [
+    {
+      "id": "EC1C091CD575E0143D1A12672904BEB2",
+      "name": "[欧美私人订制] 最懂你的欧美推荐 每日更新35首",
+      "coverImgUrl": "http://p3.music.126.net/ov41Jb2wGPGo8XJsMPiabg==/109951164273699524.jpg",
+      "describe": "收藏专属于你的欧美日推每天和喜欢的欧美音乐不期而遇",
+      "creatorNickName": "网易云音乐",
+      "targetUrl": "https://music.163.com/#/album?id=36836270",
+      "playCount": 210376736,
+      "subscribedCount": 2679925,
+      "tags": [
+        "欧美"
+      ],
+      "createTime": 0,
+      "subed": false
+    },
+    {
+      "id": "9A842DEA90F28A13AB3499FF2E183762",
+      "name": "日本Oricon榜",
+      "coverImgUrl": "http://p1.music.126.net/aXUPgImt8hhf4cMUZEjP4g==/109951165611417794.jpg",
+      "describe": "日本Oricon数字单曲周榜，每周三更新，欢迎关注。",
+      "creatorNickName": "日本公信榜（Oricon）",
+      "targetUrl": "https://music.163.com/#/album?id=36836270",
+      "playCount": 63533684,
+      "subscribedCount": 157659,
+      "tags": [
+        "榜单",
+        "日语"
+      ],
+      "createTime": 1357635084874,
+      "subed": false,
+      "trackCount": 0,
+      "specialType": 0,
+      "category": "GLOBAL",
+      "updateFrequency": "每周三更新"
+    },
+    {
+      "id": "7C6F2F89F3C13CF38C8888F166492C72",
+      "name": "法国 NRJ Vos Hits 周榜",
+      "coverImgUrl": "http://p1.music.126.net/-fyzrPWd06FfWl_0JDAxMQ==/109951165613108584.jpg",
+      "describe": "法国NRJ电台（national Radio de Jeunes）成立于1981年，总部位于法国巴黎。是法国最受欢迎的音乐电台和听众最多的广播电台之一。NRJ音乐奖素有法国的“格莱美”之称。此榜单针对NRJ电台法国本土热门歌曲排行。【每周五更新】",
+      "creatorNickName": "小翰子",
+      "targetUrl": "https://music.163.com/#/album?id=36836270",
+      "playCount": 23841604,
+      "subscribedCount": 60927,
+      "tags": [
+        "榜单"
+      ],
+      "createTime": 1409825013948,
+      "subed": false,
+      "trackCount": 0,
+      "specialType": 0,
+      "category": "GLOBAL",
+      "updateFrequency": "每周五更新"
+    },
+    {
+      "id": "78A6A878AD1B0B4F99FC4C940A8B7C01",
+      "name": "美国Billboard榜",
+      "coverImgUrl": "http://p1.music.126.net/rwRsVIJHQ68gglhA6TNEYA==/109951165611413732.jpg",
+      "describe": "美国Billboard排行榜",
+      "creatorNickName": "Billboard公告牌",
+      "targetUrl": "https://music.163.com/#/album?id=36836270",
+      "playCount": 611930496,
+      "subscribedCount": 1326946,
+      "tags": [
+        "流行",
+        "欧美",
+        "榜单"
+      ],
+      "createTime": 1358823076818,
+      "subed": false,
+      "trackCount": 0,
+      "specialType": 0,
+      "category": "GLOBAL",
+      "updateFrequency": "每周三更新"
+    }
+  ]
+}

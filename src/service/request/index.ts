@@ -29,15 +29,11 @@ class SRequest {
     // 3. 全局拦截器（所有请求都生效）
     // ---------------------------
     this.instance.interceptors.request.use((config: InternalAxiosRequestConfig) => {
-      console.log("【全局请求拦截】添加公共 header、token 等")
       const originalUrl = config.url || ''
-      console.log("originalUrl",originalUrl)
       const realUrl = getRealUrl(originalUrl)   // 从映射表获取真实路径
-      console.log("realUrl",realUrl)
-
       if (realUrl !== originalUrl) {
         config.url = realUrl
-        console.log(`[URL 映射] ${originalUrl} → ${realUrl}`)
+
       }
       // 请求拦截器里设置
       if (!config.headers) {
@@ -51,9 +47,13 @@ class SRequest {
       return config
     }, (err) => Promise.reject(err))
     this.instance.interceptors.response.use((res: AxiosResponse) => {
-      console.log("【全局响应拦截】统一处理业务状态码、错误提示")
-      // 示例：直接返回 data，业务层无需 res.data
-      return res.data
+      // 如果 data 是字符串且看起来像 JSON，则尝试解析
+      if (typeof res.data === 'string' && res.data.trim().startsWith('{')) {
+        try {
+          res.data = JSON.parse(res.data);
+        } catch (e) { }
+      }
+      return  res.data 
     }, err => {
       console.log("【全局响应错误】统一处理错误码")
       return Promise.reject(err)
