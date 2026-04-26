@@ -8,6 +8,22 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f5f5f5;
 }
+/* 让 body 和 #root 占满全屏高度 */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* 确保至少占满视口高度 */
+}
+
+.main {
+  flex: 1;            /* 占据剩余所有空间，把 footer 推到底部 */
+}
 
 .wrap-v1 {
   width: 1100px;
@@ -61,4 +77,8 @@ button {
 
 .sprite_playlist {
   background: url(../img/playlist_sprite.png) no-repeat 0 9999px;
+}
+
+.foot_enter_new2{
+  background: url(../img/foot_enter_new2.png) no-repeat 0 9999px;
 }

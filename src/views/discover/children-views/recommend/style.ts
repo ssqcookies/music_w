@@ -20,8 +20,7 @@ export const RecommendWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: 2166px;
   background-position: center -8px;
-
-  height: 1000px;
+  min-height: 1000px;
 
   &::before {
     position: absolute;

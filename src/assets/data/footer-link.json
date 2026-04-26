@@ -1,0 +1,45 @@
+[
+
+  {
+    "title": "云村交易所",
+    "type": "link",
+    "link": "https://music.163.com/st/web-sublicense/home",
+    "bgp":"-5px -170px",
+    "hbgp":"-60px -170px"
+  },
+  {
+    "title": "X StudioAI歌手",
+    "type": "link",
+    "link": "https://xstudio.music.163.com/",
+    "bgp":"-5px -170px",
+    "hbgp":"-60px -170px"
+  },
+  {
+    "title": "用户认证",
+    "type": "link",
+    "link": "https://music.163.com/st/userbasic#/auth",
+    "bgp":"-60px -60px",
+    "hbgp":"-115px -5px"
+  },
+  {
+    "title": "AI 免费写歌",
+    "type": "link",
+    "link": "https://tianyin.music.163.com/",
+    "bgp":"-5px -60px",
+    "hbgp":"-60px -5px"
+  },
+  {
+    "title": "云推歌",
+    "type": "link",
+    "link": "https://music.163.com/st/ad-song",
+    "bgp":"-5px -170px",
+    "hbgp":"-60px -170px"
+  },
+  {
+    "title": "赞赏",
+    "type": "link",
+    "link": "https://music.163.com/web/reward",
+    "bgp":"-170px -115px",
+    "hbgp":"-60px -115px"
+  }
+]
