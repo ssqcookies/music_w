@@ -16,7 +16,6 @@ const RankingList: FC<IProps> = () => {
     }),
     shallowEqual
   )
-  console.log("rankingList", rankingList)
   return <RankingListWrapper>
     <AireHeaderRemd title="榜单" morePath="/discover/ranking" />
     <div className="content">

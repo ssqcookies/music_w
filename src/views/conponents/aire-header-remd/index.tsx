@@ -7,10 +7,11 @@ interface IProps {
   children?: ReactNode
   title: string
   keywords?: string[]
-  morePath: string
+  morePath: string,
+  moreText?:string
 }
 const AireHeaderRemd: FC<IProps> = (props: IProps) => {
-  const { title, keywords = [], morePath } = props
+  const { title, keywords = [], morePath ,moreText = '更多'} = props
   return (
     <AireHeaderWapper className="sprite_02">
       <div className="left">
@@ -27,7 +28,7 @@ const AireHeaderRemd: FC<IProps> = (props: IProps) => {
         </div>
       </div>
       <div className="right">
-        <Link to={morePath}>更多</Link>
+        <Link to={morePath}>{moreText}</Link>
         <i className="icon sprite_02"></i>
       </div>
     </AireHeaderWapper>

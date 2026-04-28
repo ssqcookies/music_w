@@ -1,0 +1,63 @@
+{
+  "code": 200,
+  "subCode": null,
+  "message": null,
+  "data": [
+    {
+      "id": "BAFFB7B92ED692ABC15DC4AD66655944",
+      "name": "林俊杰",
+      "transName": "林俊杰",
+      "coverImgUrl": "http://p1.music.126.net/78q0jUUJ0h08GxAs2G-tCA==/109951168529051968.jpg",
+      "type": 1,
+      "authMusicianV": null,
+      "identity": null,
+      "roles": null,
+      "subCount": null,
+      "briefDesc": "",
+      "nationality": null,
+      "musicSize": 598
+    },
+    {
+      "id": "2DAC3FE29026222F17098C0C38639B93",
+      "name": "陈奕迅",
+      "transName": "陈奕迅",
+      "coverImgUrl": "http://p1.music.126.net/1qr8a9G8pWEMoruLJaBv8A==/109951169014564421.jpg",
+      "type": 1,
+      "authMusicianV": null,
+      "identity": null,
+      "roles": null,
+      "subCount": null,
+      "briefDesc": "",
+      "nationality": null,
+      "musicSize": 1856
+    },
+    {
+      "id": "95CF3B54E42FA461E326F8FF100F4C8E",
+      "name": "杨坤",
+      "transName": "杨坤",
+      "coverImgUrl": "http://p1.music.126.net/fYkZF3RP6Ru0Hd96SIugzg==/230897441849958.jpg",
+      "type": 1
+  },
+  {
+    "id": "95CF3Bw54E42FA461E326F8FF100F4C8E",
+    "name": "张惠妹aMEI",
+    "transName": "台湾歌手张惠妹",
+    "coverImgUrl": "https://p1.music.126.net/cSAmmAvsKhm3N-zxWg7QcQ==/109951168490195225.jpg",
+    "type": 1
+},
+{
+  "id": "95CF3Bw54E42FA461E326F84FF100F4C8E",
+  "name": "麦田老狼",
+  "transName": "歌手，音乐人。代表作《同桌的你》等。",
+  "coverImgUrl": "https://p1.music.126.net/1GIlkxKmvKu66ufU83FyvA==/31885837222663.jpg",
+  "type": 1
+},
+{
+  "id": "925CF3Bw54E42FA461E326F8FF100F4C8E",
+  "name": "吴莫愁Momo",
+  "transName": "《中国好声音》选手吴莫愁",
+  "coverImgUrl": "https://p1.music.126.net/FRjXcFEflJMI0UBFauC--g==/109951169959806190.jpg",
+  "type": 1
+}
+  ]
+}

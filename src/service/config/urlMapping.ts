@@ -22,6 +22,20 @@ export const urlMapping: Record<string, { dev: string; prod: string }> = {
     dev: '/data/rankingList.json',
     prod: '/api/rankingList'
   },
+  '/api/artistsList': {
+    dev: '/data/artists.json',
+    prod: '/api/artists'
+  },
+  '/api/songDetail': {
+    dev: '/data/songDetail.json',
+    prod: '/api/songDetail'
+  },
+  '/api/songLyric': {
+    dev: '/data/songLyric.json',
+    prod: '/api/songLyric'
+  },
+
+  
 }
 
 export function getRealUrl(logicUrl: string): string {

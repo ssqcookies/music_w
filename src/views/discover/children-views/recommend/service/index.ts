@@ -20,3 +20,8 @@ export function getTopList(){
 export function getRankingList(id:any){
   return sRequest.get('/api/rankingList',{id})
 }
+
+
+export function getArtistsList(){
+  return sRequest.get('/api/artistsList')
+}
